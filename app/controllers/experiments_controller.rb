@@ -3,7 +3,7 @@ class ExperimentsController < ApplicationController
   	render layout: "bootstrap"
   end
 
-  end
+  
 
   def page2
   end
