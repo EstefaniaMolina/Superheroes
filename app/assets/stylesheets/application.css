@@ -14,3 +14,38 @@
  *= require_self
  */
 
+ .bgSuperman{
+ 	background-image: url(/assets/fondoSuperman.png);
+ 	background-size: 100% 100%;
+    background-repeat: no-repeat;
+ }
+ .bgBatman{
+ 	background-image: url(/assets/fondoBatman2.jpg);
+ 	background-size: 100% 100%;
+    background-repeat: no-repeat;
+ }
+html, body{
+ 	height: 100%;
+ 	margin:0px;
+ }
+ .batman{
+	margin:0px;
+	width:50%;
+	height: 100%;
+	float:left;
+    background-image: url(/assets/batman.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.superman{
+	margin:0px;
+	width:50%;
+	height: 100%;
+	float:left;
+    background-image: url(/assets/superman.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+
+}
