@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'experiments/page1'
+
+  get 'experiments/page2'
+
+  get 'experiments/page3'
+
+  get 'experiments/page1'
+
+  get 'experiments/page'
+
+  get 'experiments/2'
+
+  get 'experiments/page'
+
+  get 'experiments/3'
+
   resources :batmanvssuperman, :heroes
   
   get 'heroes/index'
