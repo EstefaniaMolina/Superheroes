@@ -6,3 +6,11 @@
 	<div class="superman"></div>
 </a>
 
+<%= form_for @heroe do |f| %>
+ <%= f.label :SuperheroeFavorito %>
+  <%= f.text_field :name %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.submit %>
+<% end %>
+

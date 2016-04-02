@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :batmanvssuperman, :heroes
+  
+  get 'heroes/index'
+
   get 'pages/batman'
 
   get 'pages/superman'
